@@ -3996,6 +3996,29 @@ a:hover .dashboard-mini-thumb {
   color: #64748b;
 }
 
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.footer-powered {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #94a3b8;
+  font-size: 0.78rem;
+}
+
+.footer-powered-logo {
+  height: 28px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+  border-radius: 4px;
+  display: block;
+}
+
 .footer-legal-links {
   display: flex;
   align-items: center;

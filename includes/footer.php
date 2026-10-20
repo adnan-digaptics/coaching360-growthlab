@@ -140,6 +140,18 @@
       <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 py-4 border-top">
         <div class="footer-copyright">
           <span>© <?= date('Y') ?> Coaching 360 Growth Lab USA Inc. All rights reserved. Helping coaches scale nationwide.</span>
+          <div class="footer-powered">
+            <span>Powered by</span>
+            <img
+              src="<?= $basePath ?? '' ?>assets/images/360-growth-lab-logo.jpg"
+              alt="360 Growth Lab"
+              class="footer-powered-logo"
+              width="140"
+              height="36"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
         </div>
         <div class="footer-legal-links d-flex align-items-center gap-3">
           <a href="#" class="footer-legal-link">Privacy Policy</a>
