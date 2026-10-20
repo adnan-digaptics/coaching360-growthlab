@@ -1,0 +1,66 @@
+# ==============================================================================
+# Coaching 360 Growth Lab USA - Apache Security & Routing Configuration
+# ==============================================================================
+
+# 1. Disable Directory Indexing and MultiViews
+Options -Indexes -MultiViews
+
+# 2. Suppress Server Signatures
+ServerSignature Off
+
+# 3. Set Default Character Set to UTF-8
+AddDefaultCharset UTF-8
+
+# 4. Block HTTP TRACE and TRACK Methods (Defense against XST attacks)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK) [NC]
+    RewriteRule .* - [F]
+</IfModule>
+
+# 5. Block Access to Hidden & Sensitive Files (.env, .git, .sql, .log, .md, .bak, etc.)
+<FilesMatch "(^\.|\.(bak|config|sql|fla|psd|ini|log|sh|inc|swp|dist|env|md|git|yml|yaml|json))$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order deny,allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 6. Block Direct Access to the includes/ Folder
+<IfModule mod_rewrite.c>
+    RewriteRule ^includes/ - [F,L]
+</IfModule>
+
+# 7. Redirection & Clean URLs Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /coaching360-growthlab/
+
+    # Dynamic Industry Routing (e.g. /industry/business-coaches)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^industry/([a-zA-Z0-9_-]+)/?$ industry.php?slug=$1 [L,QSA]
+
+    # Dynamic Location Routing (e.g. /location/new-york)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^location/([a-zA-Z0-9_-]+)/?$ location.php?city=$1 [L,QSA]
+
+    # Direct Services Directory Routing
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^services/?$ services.php [L,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^services/([a-zA-Z0-9_-]+)/?$ services/$1.php [L,QSA]
+
+    # General Clean URLs for Root PHP Files (e.g. /consultation, /solutions, /industries)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L,QSA]
+</IfModule>
