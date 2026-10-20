@@ -123,24 +123,24 @@ require 'includes/header.php';
     <div class="stat-band">
       <div class="row text-center g-4 position-relative">
         <div class="col-6 col-lg-3 stat-item">
+          <div class="stat-icon mb-3"><i class="bi bi-grid-1x2 fs-3"></i></div>
+          <div class="stat-num" data-count="<?= count($services) ?>" data-suffix="+"><?= count($services) ?>+</div>
+          <div class="stat-label">Growth services</div>
+        </div>
+        <div class="col-6 col-lg-3 stat-item">
           <div class="stat-icon mb-3"><i class="bi bi-mortarboard fs-3"></i></div>
-          <div class="stat-num" data-count="<?= count($courses) ?>" data-suffix="+"><?= count($courses) ?>+</div>
-          <div class="stat-label">Courses to explore</div>
+          <div class="stat-num" data-count="<?= count($growth_programs) ?>" data-suffix="+"><?= count($growth_programs) ?>+</div>
+          <div class="stat-label">Programs to explore</div>
         </div>
         <div class="col-6 col-lg-3 stat-item">
           <div class="stat-icon mb-3"><i class="bi bi-people fs-3"></i></div>
-          <div class="stat-num" data-count="<?= count($instructors) ?>" data-suffix="+"><?= count($instructors) ?>+</div>
-          <div class="stat-label">Instructors to learn from</div>
+          <div class="stat-num" data-count="<?= count($case_studies) ?>" data-suffix="+"><?= count($case_studies) ?>+</div>
+          <div class="stat-label">Coach success stories</div>
         </div>
         <div class="col-6 col-lg-3 stat-item">
-          <div class="stat-icon mb-3"><i class="bi bi-diagram-3 fs-3"></i></div>
-          <div class="stat-num" data-count="3" data-suffix="">3</div>
-          <div class="stat-label">Connected learning pathways</div>
-        </div>
-        <div class="col-6 col-lg-3 stat-item">
-          <div class="stat-icon mb-3"><i class="bi bi-clock-history fs-3"></i></div>
-          <div class="stat-num" data-count="100" data-suffix="%">100%</div>
-          <div class="stat-label">Flexible self-paced study</div>
+          <div class="stat-icon mb-3"><i class="bi bi-geo-alt fs-3"></i></div>
+          <div class="stat-num" data-count="<?= count($top_locations) ?>" data-suffix="+"><?= count($top_locations) ?>+</div>
+          <div class="stat-label">US markets served</div>
         </div>
       </div>
     </div>
@@ -267,11 +267,11 @@ require 'includes/header.php';
     <div class="d-flex align-items-end justify-content-between gap-3 mb-4" data-reveal>
       <div>
         <div class="eyebrow">Explore what’s new</div>
-        <h2 class="section-title">Featured Courses</h2>
-        <p class="section-intro mb-0 mt-2">Ideas and practical skills for the work you want to do.</p>
+        <h2 class="section-title">Featured Programs</h2>
+        <p class="section-intro mb-0 mt-2">Hands-on accelerators built to grow your coaching practice.</p>
       </div>
       <a href="courses.php" class="fw-bold text-primary">
-        View all courses <i class="bi bi-arrow-right"></i>
+        View all programs <i class="bi bi-arrow-right"></i>
       </a>
     </div>
 
@@ -281,26 +281,24 @@ require 'includes/header.php';
       data-bs-interval="6500"
       data-bs-pause="false"
       data-bs-wrap="true"
-      aria-label="Featured courses"
+      aria-label="Featured programs"
     >
       <div class="carousel-inner">
-        <?php foreach (array_chunk(array_slice($courses, 0, 6), 2) as $slideIndex => $courseGroup): ?>
+        <?php foreach (array_chunk(array_slice($growth_programs, 0, 6), 2) as $slideIndex => $programGroup): ?>
           <div class="carousel-item <?= $slideIndex === 0 ? 'active' : '' ?>">
             <div class="row g-4">
-              <?php foreach ($courseGroup as $c): ?>
+              <?php foreach ($programGroup as $c): ?>
                 <div class="col-md-6">
-                  <a href="course-detail.php?slug=<?= $c['slug'] ?>">
+                  <a href="course-detail.php?slug=<?= htmlspecialchars($c['slug']) ?>">
                     <article class="course-card">
-                      <img src="<?= $c['image'] ?>" alt="<?= htmlspecialchars($c['title']) ?>">
+                      <img src="<?= htmlspecialchars($c['image']) ?>" alt="<?= htmlspecialchars($c['title']) ?>">
                       <div class="body">
-                        <span class="badge-soft"><?= $c['category'] ?></span>
-                        <h5 class="mt-3 mb-2"><?= $c['title'] ?></h5>
-                        <div class="rating">
-                          ★★★★★ <span class="text-secondary"><?= $c['rating'] ?></span>
-                        </div>
+                        <span class="badge-soft"><?= htmlspecialchars($c['badge']) ?></span>
+                        <h5 class="mt-3 mb-2"><?= htmlspecialchars($c['title']) ?></h5>
+                        <p class="text-secondary small mb-0"><?= htmlspecialchars($c['tagline']) ?></p>
                         <div class="course-meta mt-3">
-                          <span><i class="bi bi-journal-text"></i> <?= $c['lessons'] ?> lessons</span>
-                          <span><i class="bi bi-clock"></i> <?= $c['hours'] ?> hours</span>
+                          <span><i class="bi bi-clock"></i> <?= htmlspecialchars($c['duration']) ?></span>
+                          <span><i class="bi bi-laptop"></i> <?= htmlspecialchars($c['format']) ?></span>
                         </div>
                       </div>
                     </article>
@@ -314,7 +312,7 @@ require 'includes/header.php';
 
       <div class="course-carousel-controls d-flex justify-content-end align-items-center gap-3 mt-4">
         <div class="carousel-indicators position-static m-0">
-          <?php foreach (array_chunk(array_slice($courses, 0, 6), 2) as $slideIndex => $courseGroup): ?>
+          <?php foreach (array_chunk(array_slice($growth_programs, 0, 6), 2) as $slideIndex => $programGroup): ?>
             <button
               type="button"
               data-bs-target="#featuredCourseCarousel"
@@ -361,34 +359,37 @@ require 'includes/header.php';
   </div>
 </section>
 
-<!-- Instructors Section -->
+<!-- Success Stories Section -->
 <section class="section section-soft">
   <div class="container">
     <div class="row align-items-end mb-4" data-reveal>
       <div class="col-lg-8">
-        <div class="eyebrow">Learn from experience</div>
-        <h2 class="section-title mt-2">Meet your instructors</h2>
+        <div class="eyebrow">Proven results</div>
+        <h2 class="section-title mt-2">Coach success stories</h2>
         <p class="section-intro mb-0">
-          Explore guidance from educators across healthcare, ethics and community development.
+          Real US coaches who scaled client pipelines with Coaching 360 Growth Lab.
         </p>
       </div>
       <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
-        <a href="instructors.php" class="fw-bold text-primary">
-          Meet all instructors <i class="bi bi-arrow-right"></i>
+        <a href="case-studies.php" class="fw-bold text-primary">
+          View all case studies <i class="bi bi-arrow-right"></i>
         </a>
       </div>
     </div>
 
     <div class="row g-4">
-      <?php foreach (array_slice($instructors, 0, 3) as $instructor): ?>
+      <?php foreach (array_slice($case_studies, 0, 3) as $story): ?>
         <div class="col-md-4" data-reveal>
-          <article class="profile-card">
-            <img src="<?= $instructor['image'] ?>" alt="<?= htmlspecialchars($instructor['name']) ?>">
-            <div class="pt-3">
-              <h5 class="mb-1"><?= $instructor['name'] ?></h5>
-              <p class="text-secondary mb-0"><?= $instructor['role'] ?></p>
-            </div>
-          </article>
+          <a href="case-studies.php" class="text-decoration-none text-dark">
+            <article class="profile-card">
+              <img src="<?= htmlspecialchars($story['image']) ?>" alt="<?= htmlspecialchars($story['coach_name']) ?>">
+              <div class="pt-3">
+                <h5 class="mb-1"><?= htmlspecialchars($story['coach_name']) ?></h5>
+                <p class="text-secondary mb-1"><?= htmlspecialchars($story['coach_type']) ?></p>
+                <p class="small text-primary fw-semibold mb-0"><?= htmlspecialchars($story['highlight']) ?></p>
+              </div>
+            </article>
+          </a>
         </div>
       <?php endforeach; ?>
     </div>
@@ -506,12 +507,12 @@ require 'includes/header.php';
           <div class="eyebrow text-white-50">Start your next chapter</div>
           <h2 class="display-5 fw-bold mt-2">One platform. More ways to grow.</h2>
           <p class="mb-0 text-white-50">
-            Discover courses that match your goals and build a learning path around your work, interests and impact.
+            Build a predictable client pipeline with growth systems designed for US coaches.
           </p>
         </div>
         <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-          <a href="signup.php" class="btn btn-light btn-lg rounded-pill px-4 py-3">
-            Create account
+          <a href="consultation.php" class="btn btn-light btn-lg rounded-pill px-4 py-3">
+            Free consultation
           </a>
         </div>
       </div>
