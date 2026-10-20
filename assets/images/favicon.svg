@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Coaching 360 Growth Lab">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d82ff"/>
+      <stop offset="55%" stop-color="#0a6df0"/>
+      <stop offset="100%" stop-color="#0548a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <circle cx="32" cy="34" r="14" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <circle cx="44" cy="18" r="5" fill="#38bdf8"/>
+</svg>
