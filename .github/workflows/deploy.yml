@@ -1,0 +1,30 @@
+name: Deploy Coaching 360 Growth Lab
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-coaching
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy to Hostinger VPS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger VPS Zero-Downtime PHP Deployment
+        uses: appleboy/ssh-action@v1.2.2
+        with:
+          host: 72.61.0.11
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            set -euo pipefail
+            cd /root/coaching360-growthlab
+            git fetch origin main
+            git checkout -B main origin/main
+            git pull --ff-only origin main
+            /root/deploy-coachinggrowth360.sh
