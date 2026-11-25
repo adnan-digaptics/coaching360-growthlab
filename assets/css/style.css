@@ -6145,11 +6145,11 @@ h6,
 }
 
 .hero-kicker {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
+  background: transparent;
+  border: none;
   border-radius: 999px;
-  padding: 0.3rem 0.75rem 0.3rem 0.3rem;
-  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+  padding: 0.3rem 0rem;
+  box-shadow: none;
 }
 
 .hero h1 {
@@ -11332,8 +11332,8 @@ img, svg, video, iframe {
     padding: 0.35rem 0.5rem !important;
     gap: 0.25rem !important;
     max-width: 100% !important;
-    background: #ffffff !important;
-    border: 1px solid #e2e8f0 !important;
+    background: transparent !important;
+    border: none !important;
   }
 
   .hero-kicker .badge {
