@@ -34,8 +34,8 @@ $processSteps = $service['process_steps'] ?? [
 ];
 $targetAudience = $service['target_audience'] ?? 'Executive, Business, Life, Health, Career, and Financial Coaches seeking predictable growth and operational leverage.';
 $whyChoose = $service['why_choose'] ?? [
-    'Dedicated 100% US-based team of coaching growth specialists',
-    'Turnkey technical execution across websites, funnels, GHL, and AI',
+    'Dedicated team of coaching growth specialists',
+    'Turnkey technical execution across websites, funnels, 360 Growth Lab CRM, and n8N Automations',
     'Focus on actual qualified revenue and pipeline value — not vanity clicks',
     'Strict confidentiality and proven track record with 250+ coaching practices'
 ];
@@ -70,7 +70,7 @@ require_once __DIR__ . '/../includes/header.php';
             <?= htmlspecialchars($service['badge']) ?>
           </span>
           <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fw-bold fs-xs text-uppercase tracking-wider">
-            <i class="bi bi-shield-check me-1"></i> Turnkey US Implementation
+            <i class="bi bi-shield-check me-1"></i> Turnkey Implementation
           </span>
         </div>
 
@@ -475,7 +475,7 @@ require_once __DIR__ . '/../includes/header.php';
           <div class="d-inline-flex align-items-center gap-2 text-success fw-bold text-uppercase small mb-3">
             <i class="bi bi-trophy-fill"></i> The Growth Lab Edge
           </div>
-          <h3 class="fw-bold text-dark mb-3 font-manrope">Why Partner with Coaching 360 Growth Lab</h3>
+          <h3 class="fw-bold text-dark mb-3 font-manrope">Why Partner with Coaching Growth 360</h3>
           <p class="text-secondary mb-3">
             We are not a generic digital agency delivering cookie-cutter templates. We operate as your dedicated commercial growth partner.
           </p>

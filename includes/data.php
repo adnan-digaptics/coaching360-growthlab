@@ -11,7 +11,7 @@ $services = [
     [
         'slug' => 'lead-generation',
         'short_title' => 'Lead Generation',
-        'title' => 'Predictable Lead Generation Systems for US Coaches',
+        'title' => 'Predictable Lead Generation Systems for Coaches',
         'tagline' => 'Fill your discovery calendar with pre-qualified, high-intent coaching clients every single week.',
         'icon' => 'bi-graph-up-arrow',
         'badge' => 'High-Conversion Acquisition',
@@ -45,7 +45,7 @@ $services = [
             ['q' => 'How do you ensure leads are qualified for high-ticket coaching?', 'a' => 'We implement mandatory multi-step application filters before anyone can book. We qualify by income/revenue, urgency of pain, commitment level, and willingness to invest.'],
             ['q' => 'Does this work for both B2B and B2C coaches?', 'a' => 'Yes. For executive, corporate, and sales coaches, we deploy high-authority LinkedIn and Google Search engines. For life, health, and relationship coaches, we leverage high-converting Meta and Instagram video funnels.'],
             ['q' => 'Do you provide the ad creative and copywriting?', 'a' => 'Yes, our team writes all direct-response ad copy, crafts high-converting video scripts, and builds your custom landing page assets.'],
-            ['q' => 'Can this integrate with my existing calendar and CRM?', 'a' => 'Yes, we integrate seamlessly with GoHighLevel, Calendly, Acuity, Zoom, Google Calendar, and Stripe.']
+            ['q' => 'Can this integrate with my existing calendar and CRM?', 'a' => 'Yes, we integrate seamlessly with 360 Growth Lab CRM, Calendly, Acuity, Zoom, Google Calendar, and Stripe.']
         ]
     ],
     [

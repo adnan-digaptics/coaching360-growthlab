@@ -47,8 +47,6 @@ $basePath = $basePath ?? '';
           <span class="topbar-text">Helping coaches turn expertise into scalable client pipelines</span>
         </div>
         <div class="topbar-right d-flex align-items-center gap-2 gap-xl-3">
-          <span class="topbar-info"><i class="bi bi-shield-check text-primary"></i> 100% US-Based Team</span>
-          <span class="topbar-divider d-none d-xl-inline-block"></span>
           <span class="topbar-info d-none d-xl-inline-flex"><i class="bi bi-telephone-fill text-primary"></i> (773) 757-9417</span>
           <span class="topbar-divider"></span>
           <a href="<?= $basePath ?>consultation.php" class="topbar-action-link fw-bold text-primary">
@@ -283,11 +281,13 @@ $basePath = $basePath ?? '';
               </ul>
             </li>
 
+            <!-- Programs nav item hidden for now
             <li class="nav-item">
               <a class="nav-link <?= ($currentPage === 'courses.php' || $currentPage === 'course-detail.php') ? 'active' : '' ?>" href="<?= $basePath ?>courses.php">
                 <span>Programs</span>
               </a>
             </li>
+            -->
 
             <li class="nav-item">
               <a class="nav-link <?= $currentPage === 'solutions.php' ? 'active' : '' ?>" href="<?= $basePath ?>solutions.php">

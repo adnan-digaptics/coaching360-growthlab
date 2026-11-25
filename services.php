@@ -346,23 +346,9 @@ require_once __DIR__ . '/includes/header.php';
             </div>
             <div class="col-6 col-sm-4">
               <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
-                <i class="bi bi-chat-dots-fill text-success fs-3 d-block mb-1"></i>
-                <div class="fw-bold text-dark small">A2P 10DLC</div>
-                <div class="text-muted" style="font-size: 0.7rem;">Carrier Approved</div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-4">
-              <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
                 <i class="bi bi-shield-lock-fill text-primary fs-3 d-block mb-1"></i>
                 <div class="fw-bold text-dark small">NDA Protected</div>
                 <div class="text-muted" style="font-size: 0.7rem;">Confidentiality Standard</div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-4">
-              <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
-                <i class="bi bi-flag-fill text-danger fs-3 d-block mb-1"></i>
-                <div class="fw-bold text-dark small">100% US Based</div>
-                <div class="text-muted" style="font-size: 0.7rem;">Dedicated Local Team</div>
               </div>
             </div>
           </div>

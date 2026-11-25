@@ -130,7 +130,7 @@ require_once __DIR__ . '/includes/header.php';
             </li>
             <li>
               <i class="bi bi-check-circle-fill"></i>
-              <span>Certified GoHighLevel CRM & SMS Speed-to-Lead</span>
+              <span>Certified 360 Growth Lab CRM & SMS Speed-to-Lead</span>
             </li>
             <li>
               <i class="bi bi-check-circle-fill"></i>

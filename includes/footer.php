@@ -21,7 +21,7 @@
             <div class="pillar-card">
               <div class="pillar-icon"><i class="bi bi-gear-wide-connected"></i></div>
               <div class="pillar-info">
-                <h6>GoHighLevel & n8n</h6>
+                <h6>360 Growth Lab & n8n</h6>
                 <p>Turnkey CRM & workflow automations</p>
               </div>
             </div>
@@ -89,7 +89,7 @@
             <li><a href="<?= $basePath ?? '' ?>services/lead-generation.php" class="footer-link"><i class="bi bi-chevron-right"></i> Lead Generation</a></li>
             <li><a href="<?= $basePath ?? '' ?>services/seo-for-coaches.php" class="footer-link"><i class="bi bi-chevron-right"></i> SEO for Coaches</a></li>
             <li><a href="<?= $basePath ?? '' ?>services/website-development.php" class="footer-link"><i class="bi bi-chevron-right"></i> Web Development</a></li>
-            <li><a href="<?= $basePath ?? '' ?>services/gohighlevel.php" class="footer-link"><i class="bi bi-chevron-right"></i> GoHighLevel Setup</a></li>
+            <li><a href="<?= $basePath ?? '' ?>services/gohighlevel.php" class="footer-link"><i class="bi bi-chevron-right"></i> 360 Growth Lab Setup</a></li>
             <li><a href="<?= $basePath ?? '' ?>services/ai-automation.php" class="footer-link"><i class="bi bi-chevron-right"></i> AI Automation</a></li>
             <li><a href="<?= $basePath ?? '' ?>services/local-seo.php" class="footer-link"><i class="bi bi-chevron-right"></i> Local SEO & GBP</a></li>
           </ul>
@@ -106,6 +106,7 @@
             <li><a href="<?= $basePath ?? '' ?>industry.php?slug=relationship-coaches" class="footer-link"><i class="bi bi-chevron-right"></i> Relationship & Family</a></li>
             <li><a href="<?= $basePath ?? '' ?>industry.php?slug=financial-coaches" class="footer-link"><i class="bi bi-chevron-right"></i> Financial Coaching</a></li>
             <li><a href="<?= $basePath ?? '' ?>industry.php?slug=academic-coaches" class="footer-link"><i class="bi bi-chevron-right"></i> Education & Student</a></li>
+            <li><a href="<?= $basePath ?? '' ?>blog.php" class="footer-link"><i class="bi bi-chevron-right"></i> Blog</a></li>
           </ul>
         </div>
 

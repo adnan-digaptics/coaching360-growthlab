@@ -257,7 +257,7 @@ $categoryTags = [
               Don't See Your Exact Coaching Specialization Listed?
             </h3>
             <p class="text-white-80 lead fs-6 mb-0 max-w-750" style="line-height: 1.7;">
-              Coaching 360 Growth Lab designs scalable, customized marketing funnels and GoHighLevel client acquisition systems for any coaching specialty, including spiritual coaching, grief recovery, voice & accent coaching, neurodivergent (ADHD) guides, and emerging wellness practices.
+              Coaching Growth 360 designs scalable, customized marketing funnels and client acquisition systems for any coaching specialty, including spiritual coaching, grief recovery, voice & accent coaching, neurodivergent (ADHD) guides, and emerging wellness practices.
             </p>
           </div>
           <div class="col-lg-4 text-center text-lg-end">
@@ -333,7 +333,7 @@ $categoryTags = [
           </div>
           <h5 class="fw-bold text-dark mb-2">24/7 AI Qualification & CRM</h5>
           <p class="small text-secondary mb-0">
-            Certified GoHighLevel automation, sub-60-second SMS responses, and intelligent calendar screening maximize your discovery call show-up rate past 85%.
+            Certified 360 Growth Lab automation, sub-60-second SMS responses, and intelligent calendar screening maximize your discovery call show-up rate past 85%.
           </p>
         </div>
       </div>
@@ -364,7 +364,7 @@ $categoryTags = [
             </div>
             <div class="trust-seal-item d-flex align-items-center gap-2">
               <i class="bi bi-gear-wide-connected text-primary fs-5"></i>
-              <span class="small fw-bold text-secondary">Certified GoHighLevel Partner</span>
+              <span class="small fw-bold text-secondary">Certified 360 Growth Lab Partner</span>
             </div>
             <div class="trust-seal-item d-flex align-items-center gap-2">
               <i class="bi bi-meta text-primary fs-5"></i>
@@ -399,7 +399,7 @@ $categoryTags = [
           Ready to Build a High-Ticket Client Engine for Your Practice?
         </h2>
         <p class="lead text-white-80 max-w-750 mx-auto mb-4 fs-6" style="line-height: 1.75;">
-          Join 250+ certified coaches across the United States who have replaced volatile word-of-mouth with institutional-grade client generation and GoHighLevel automation.
+          Join 250+ certified coaches across the United States who have replaced volatile word-of-mouth with institutional-grade client generation and 360 Growth Lab automation.
         </p>
         <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
           <a href="consultation.php" class="btn btn-light btn-lg rounded-pill px-5 py-3 fw-bold text-primary shadow-brand hover-scale">

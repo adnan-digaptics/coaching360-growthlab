@@ -32,7 +32,7 @@ require_once __DIR__ . '/includes/header.php';
 
     <!-- Main Hero Heading -->
     <h1 class="display-4 fw-extrabold text-dark letter-spacing-tight mb-3 max-w-900 mx-auto">
-      We Help America's Best Coaches Build <span class="text-gradient">Predictable, Scalable Practices</span>
+      We Help Coaches Build <span class="text-gradient">Predictable, Scalable Practices</span>
     </h1>
 
     <p class="lead text-secondary max-w-750 mx-auto fs-5 mb-4" style="line-height: 1.75;">
@@ -99,7 +99,7 @@ require_once __DIR__ . '/includes/header.php';
       <div class="col-lg-6">
         <span class="service-pill-tag mb-2">Our Origin Story</span>
         <h2 class="display-6 fw-bold text-dark mb-3">
-          Why Coaching 360 Growth Lab Exists
+          Why Coaching Growth 360
         </h2>
         <p class="text-secondary fs-6 mb-3" style="line-height: 1.75;">
           Across the United States, thousands of brilliant coaches — in executive leadership, business strategy, health, mindset, finance, and relationships — struggle to build predictable businesses. Not because their coaching isn't good, but because the commercial landscape has become overwhelmingly complex.
@@ -108,7 +108,7 @@ require_once __DIR__ . '/includes/header.php';
           Traditional marketing agencies treat coaches like generic e-commerce stores, burning ad budgets on clicks that never convert. Cookie-cutter web designers build pretty brochure websites with zero direct-response psychology. And freelancers disappear the moment an automation breaks.
         </p>
         <p class="text-secondary fs-6 mb-4" style="line-height: 1.75;">
-          We founded <strong>Coaching 360 Growth Lab</strong> with a singular mission: to provide coaches with institutional-grade commercial infrastructure. We engineer the offers, the direct-response funnels, the GoHighLevel CRM workflows, and the high-ROI ad engines so our partners can focus 100% on transformational coaching.
+          We founded <strong>Coaching Growth 360</strong> with a singular mission: to provide coaches with institutional-grade commercial infrastructure. We engineer the offers, the direct-response funnels, the 360 Growth Lab CRM workflows, and the high-ROI ad engines so our partners can focus 100% on transformational coaching.
         </p>
 
         <!-- Institutional Guarantee Card -->
@@ -137,13 +137,10 @@ require_once __DIR__ . '/includes/header.php';
 
           <!-- Top-Left Floating Glass Badge -->
           <div class="mosaic-badge-top">
-            <div class="kpi-chip-icon icon-green" style="width: 36px; height: 36px; border-radius: 10px; background: rgba(16, 185, 129, 0.12); color: #10b981; display: flex; align-items: center; justify-content: center; font-size: 1.15rem;">
-              <i class="bi bi-shield-check-fill"></i>
+            <div style="width: 36px; height: 36px; min-width: 36px; border-radius: 10px; background: rgba(16, 185, 129, 0.12); color: #10b981; display: flex; align-items: center; justify-content: center; font-size: 1.15rem;">
+              <i class="bi bi-people-fill"></i>
             </div>
-            <div>
-              <strong class="d-block text-dark font-manrope fs-6">100% US-Based Team</strong>
-              <small class="text-muted">Austin &bull; Chicago &bull; NYC &bull; Miami</small>
-            </div>
+            <strong class="text-dark font-manrope fs-6">Expert Team</strong>
           </div>
 
           <!-- Bottom-Right Floating Dark Badge -->
@@ -286,7 +283,7 @@ require_once __DIR__ . '/includes/header.php';
       <div class="col-md-6 col-lg">
         <div class="process-step-card h-100">
           <div class="process-step-num font-manrope">STAGE 03</div>
-          <h5 class="fw-bold text-dark mb-2">GoHighLevel CRM Stack</h5>
+          <h5 class="fw-bold text-dark mb-2">360 Growth Lab CRM Stack</h5>
           <p class="text-secondary small mb-0" style="line-height: 1.55;">
             Automated sub-60s SMS greeting, calendar sync, deal stage tracking, and seamless onboarding contracts signed with zero admin friction.
           </p>
@@ -367,7 +364,7 @@ require_once __DIR__ . '/includes/header.php';
             <span class="faculty-role-badge">Acquisition Lead</span>
           </div>
           <div class="p-4 d-flex flex-column flex-grow-1">
-            <h5 class="fw-bold text-dark mb-1 font-manrope">Sarah Jenkins</h5>
+            <h5 class="fw-bold text-dark mb-1 font-manrope">Samira Ghaniwala M.D</h5>
             <div class="text-primary small fw-bold mb-3">Head of Inbound Acquisition & Media</div>
             <p class="text-secondary small mb-3" style="line-height: 1.55;">
               Performance marketing lead who has directed over $12M in paid media across Google and Meta exclusively for high-ticket coaching funnels.
@@ -385,10 +382,10 @@ require_once __DIR__ . '/includes/header.php';
         <div class="faculty-profile-card h-100">
           <div class="faculty-photo-wrap">
             <img src="<?= $basePath ?>assets/images/faculty-bilal.jpg" alt="David Chen - Chief CRM & Automation Architect" loading="eager" decoding="async">
-            <span class="faculty-role-badge">GHL Specialist</span>
+            <span class="faculty-role-badge">360 Growth Lab Specialist</span>
           </div>
           <div class="p-4 d-flex flex-column flex-grow-1">
-            <h5 class="fw-bold text-dark mb-1 font-manrope">David Chen</h5>
+            <h5 class="fw-bold text-dark mb-1 font-manrope">Nabeel Palla</h5>
             <div class="text-primary small fw-bold mb-3">Chief CRM & Automation Architect</div>
             <p class="text-secondary small mb-3" style="line-height: 1.55;">
               Certified GoHighLevel snapshot architect and n8n workflow engineer with over 150 turnkey coaching CRM and AI deployments.
@@ -444,46 +441,32 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="col-lg-7">
           <div class="row g-3">
-            <div class="col-6 col-sm-4">
-              <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
-                <i class="bi bi-gear-wide-connected text-primary fs-3 d-block mb-1"></i>
-                <div class="fw-bold text-dark small">GoHighLevel</div>
-                <div class="text-muted" style="font-size: 0.7rem;">Certified Partner</div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6">
               <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
                 <i class="bi bi-google text-primary fs-3 d-block mb-1"></i>
                 <div class="fw-bold text-dark small">Google Ads</div>
                 <div class="text-muted" style="font-size: 0.7rem;">Certified Search Partner</div>
               </div>
             </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6">
               <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
                 <i class="bi bi-meta text-primary fs-3 d-block mb-1"></i>
                 <div class="fw-bold text-dark small">Meta Media</div>
                 <div class="text-muted" style="font-size: 0.7rem;">Certified Media Buyer</div>
               </div>
             </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6">
               <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
-                <i class="bi bi-chat-dots-fill text-success fs-3 d-block mb-1"></i>
-                <div class="fw-bold text-dark small">A2P 10DLC</div>
-                <div class="text-muted" style="font-size: 0.7rem;">Carrier Approved</div>
+                <i class="bi bi-gear-wide-connected text-primary fs-3 d-block mb-1"></i>
+                <div class="fw-bold text-dark small">360 Growth Lab</div>
+                <div class="text-muted" style="font-size: 0.7rem;">Certified Partner</div>
               </div>
             </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6">
               <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
                 <i class="bi bi-shield-lock-fill text-primary fs-3 d-block mb-1"></i>
                 <div class="fw-bold text-dark small">NDA Protected</div>
                 <div class="text-muted" style="font-size: 0.7rem;">Confidentiality Standard</div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-4">
-              <div class="p-3 bg-white rounded-3 border text-center h-100 shadow-xs">
-                <i class="bi bi-flag-fill text-danger fs-3 d-block mb-1"></i>
-                <div class="fw-bold text-dark small">100% US Based</div>
-                <div class="text-muted" style="font-size: 0.7rem;">Dedicated Local Team</div>
               </div>
             </div>
           </div>

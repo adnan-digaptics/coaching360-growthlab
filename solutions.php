@@ -95,12 +95,12 @@ require_once __DIR__ . '/includes/header.php';
         <span class="badge bg-primary rounded-pill px-3 py-1 fw-bold text-uppercase mb-2">Solution Pillar 02</span>
         <h2 class="display-6 fw-bold text-dark mb-3">The CRM & Automation Flywheel</h2>
         <p class="text-secondary fs-6 mb-4" style="line-height: 1.75;">
-          Eliminate manual follow-ups and chaos. We deploy certified GoHighLevel setups and custom n8n workflows that follow up with leads in under 60 seconds, send automated SMS reminders, handle client onboarding, and collect 5-star Google reviews on autopilot.
+          Eliminate manual follow-ups and chaos. We deploy certified 360 Growth Lab setups and custom n8n workflows that follow up with leads in under 60 seconds, send automated SMS reminders, handle client onboarding, and collect 5-star Google reviews on autopilot.
         </p>
         <div class="row g-3">
           <div class="col-sm-6">
             <div class="p-3 bg-white rounded-3 border h-100 shadow-xs">
-              <h6 class="fw-bold mb-1 text-dark"><i class="bi bi-gear-wide-connected text-primary me-2"></i>GoHighLevel Systems</h6>
+              <h6 class="fw-bold mb-1 text-dark"><i class="bi bi-gear-wide-connected text-primary me-2"></i>360 Growth Lab Systems</h6>
               <p class="small text-muted mb-0">Replaces 7+ expensive tools with a unified CRM, pipeline & messaging hub.</p>
             </div>
           </div>
