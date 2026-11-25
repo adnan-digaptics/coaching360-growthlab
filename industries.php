@@ -390,7 +390,7 @@ $categoryTags = [
      ========================================================================== -->
 <section class="py-5 bg-white position-relative">
   <div class="container py-lg-4">
-    <div class="about-cta-card text-center text-white position-relative overflow-hidden p-4 p-md-5 rounded-5 shadow-2xl">
+    <div class="custom-niche-card text-center text-white position-relative overflow-hidden p-4 p-md-5 rounded-5">
       <div class="position-relative" style="z-index: 2;">
         <span class="badge bg-white-20 text-white rounded-pill px-3 py-1.5 fw-bold text-uppercase tracking-wider fs-xs mb-3 border border-white-30">
           <i class="bi bi-lightning-charge-fill text-warning me-1"></i> Zero-Risk Niche Growth Strategy
