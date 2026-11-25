@@ -633,11 +633,11 @@ require_once __DIR__ . '/../includes/header.php';
 
         <div class="p-3 bg-light rounded-3 border">
           <small class="text-muted d-block mb-1">Prefer direct inquiry?</small>
-          <a href="mailto:growth@coaching360usa.com" class="fw-bold text-primary text-decoration-none me-3">
-            <i class="bi bi-envelope me-1"></i> growth@coaching360usa.com
+          <a href="mailto:growth@coahinggrowth360.com" class="fw-bold text-primary text-decoration-none me-3">
+            <i class="bi bi-envelope me-1"></i> growth@coahinggrowth360.com
           </a>
-          <a href="tel:+18005553600" class="fw-bold text-secondary text-decoration-none">
-            <i class="bi bi-telephone me-1"></i> +1 (800) 555-3600
+          <a href="tel:+17737579417" class="fw-bold text-secondary text-decoration-none">
+            <i class="bi bi-telephone me-1"></i> (773) 757-9417
           </a>
         </div>
       </div>

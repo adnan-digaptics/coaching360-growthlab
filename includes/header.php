@@ -42,14 +42,14 @@ $basePath = $basePath ?? '';
         <div class="topbar-left d-flex align-items-center gap-2">
           <span class="topbar-pill">
             <span class="topbar-pulse"></span>
-            Built for US Coaches
+            Coaching Growth 360 is Built for COACHES
           </span>
           <span class="topbar-text">Helping coaches turn expertise into scalable client pipelines</span>
         </div>
         <div class="topbar-right d-flex align-items-center gap-2 gap-xl-3">
           <span class="topbar-info"><i class="bi bi-shield-check text-primary"></i> 100% US-Based Team</span>
           <span class="topbar-divider d-none d-xl-inline-block"></span>
-          <span class="topbar-info d-none d-xl-inline-flex"><i class="bi bi-telephone-fill text-primary"></i> (800) 555-3600</span>
+          <span class="topbar-info d-none d-xl-inline-flex"><i class="bi bi-telephone-fill text-primary"></i> (773) 757-9417</span>
           <span class="topbar-divider"></span>
           <a href="<?= $basePath ?>consultation.php" class="topbar-action-link fw-bold text-primary">
             Request Marketing Audit <i class="bi bi-arrow-right"></i>

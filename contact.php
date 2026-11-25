@@ -90,7 +90,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div>
                 <h6 class="fw-bold text-dark mb-1">Phone / Toll-Free (USA)</h6>
-                <a href="tel:+18005553600" class="text-primary text-decoration-none fw-bold fs-6">+1 (800) 555-3600</a>
+                <a href="tel:+17737579417" class="text-primary text-decoration-none fw-bold fs-6">(773) 757-9417</a>
                 <small class="text-muted d-block mt-1">Monday – Friday: 8:00 AM – 7:00 PM EST</small>
               </div>
             </div>
@@ -101,7 +101,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div>
                 <h6 class="fw-bold text-dark mb-1">Email Inquiries</h6>
-                <a href="mailto:growth@coaching360usa.com" class="text-primary text-decoration-none fw-bold fs-6 text-break">growth@coaching360usa.com</a>
+                <a href="mailto:growth@coahinggrowth360.com" class="text-primary text-decoration-none fw-bold fs-6 text-break">growth@coahinggrowth360.com</a>
                 <small class="text-muted d-block mt-1">Average response time: Under 2 hours</small>
               </div>
             </div>

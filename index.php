@@ -27,7 +27,7 @@ require_once __DIR__ . '/includes/header.php';
         </h1>
 
         <p class="lead text-secondary mt-3 mb-4 fs-5" style="line-height: 1.7;">
-          Coaching 360 Growth Lab is the premier commercial growth agency for coaches across the United States. We engineer high-converting sales funnels, dominate Google Local SEO, and automate client acquisition so you never have to chase clients again.
+          Coaching growth 360 is the premier commercial growth agency for coaches. We engineer high-converting sales funnels, dominate Google Local SEO, and automate client acquisition so you never have to chase clients again.
         </p>
 
         <!-- Primary & Secondary CTAs -->
@@ -200,15 +200,15 @@ require_once __DIR__ . '/includes/header.php';
       <div class="col">
         <div class="trust-pillar-card">
           <div class="trust-icon-wrap"><i class="bi bi-gear-wide-connected"></i></div>
-          <h5 class="trust-pillar-title">GoHighLevel CRM</h5>
-          <p class="trust-pillar-sub">Complete turnkey GHL setup, automated pipelines, 2-way SMS, and calendar sync.</p>
+          <h5 class="trust-pillar-title">360 Growth Lab CRM</h5>
+          <p class="trust-pillar-sub">Complete turnkey 360 Growth Lab CRM setup, automated pipelines, 2-way SMS, and calendar sync.</p>
         </div>
       </div>
       <div class="col">
         <div class="trust-pillar-card">
           <div class="trust-icon-wrap"><i class="bi bi-robot"></i></div>
           <h5 class="trust-pillar-title">AI Automation</h5>
-          <p class="trust-pillar-sub">24/7 AI lead nurturing, instant speed-to-lead response, and zero no-shows.</p>
+          <p class="trust-pillar-sub">24/7 Lead nurturing, instant speed-to-lead response, and zero no-shows.</p>
         </div>
       </div>
       <div class="col">
@@ -500,7 +500,7 @@ require_once __DIR__ . '/includes/header.php';
           <span class="process-num-badge">STEP 03</span>
           <h5 class="process-step-title">Turnkey CRM & Automation</h5>
           <p class="process-step-desc">
-            Full GoHighLevel infrastructure buildout: automated 2-way SMS, email nurture sequences, and seamless calendar integrations.
+            Full 360 Growth Lab infrastructure buildout: automated 2-way SMS, email nurture sequences, and seamless calendar integrations.
           </p>
           <ul class="process-step-highlights">
             <li><i class="bi bi-check-circle-fill"></i> Speed-to-Lead SMS & Email</li>
@@ -568,7 +568,7 @@ require_once __DIR__ . '/includes/header.php';
           Everything Your Coaching Business Needs to <span class="text-gradient">Grow</span>
         </h2>
         <p class="text-secondary mb-0 fs-6 max-w-650" style="line-height: 1.6;">
-          We provide the complete technical, creative, and strategic growth stack engineered exclusively for US coaching practices.
+          We provide the complete technical, creative, and strategic growth stack engineered exclusively for coaching.
         </p>
       </div>
 
@@ -799,6 +799,7 @@ require_once __DIR__ . '/includes/header.php';
                   <span>View Syllabus & Cohorts</span>
                   <i class="bi bi-arrow-right ms-1"></i>
                 </a>
+                <span class="text-muted small text-center fw-semibold">Coming Soon</span>
               </div>
             </div>
           </div>
@@ -935,12 +936,12 @@ require_once __DIR__ . '/includes/header.php';
           <div class="accordion-item">
             <h2 class="accordion-header" id="faqHeading3">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                Do you set up GoHighLevel from scratch or work with my existing tools?
+                Do you set up 360 Growth Lab from scratch or work with my existing tools?
               </button>
             </h2>
             <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#growthFaqAccordion">
               <div class="accordion-body">
-                Both. If you don't have GoHighLevel, we provide a turnkey, pre-configured sub-account complete with pipelines, email/SMS nurture sequences, calendar booking, and 5-star review collection. If you already have GHL, ActiveCampaign, or Calendly, we integrate and optimize your existing stack seamlessly.
+                Both. If you don't have GoHighLevel, we provide a turnkey, pre-configured sub-account complete with pipelines, email/SMS nurture sequences, calendar booking, and 5-star review collection. If you already have GHL, ActiveCampaign, or 360 Growth Lab, we integrate and optimize your existing stack seamlessly.
               </div>
             </div>
           </div>
@@ -969,20 +970,6 @@ require_once __DIR__ . '/includes/header.php';
             <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#growthFaqAccordion">
               <div class="accordion-body">
                 No. We believe in earning your business every single month through measurable pipeline performance. You own 100% of your website, funnels, CRM data, ad accounts, and client lists from day one.
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 6 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqHeading6">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
-                What is the difference between Done-For-You Services and Accelerators?
-              </button>
-            </h2>
-            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#growthFaqAccordion">
-              <div class="accordion-body">
-                Done-For-You Services are full-agency execution where our US team builds, launches, and runs your ads, funnels, and CRM for you. Accelerators are intensive cohort programs where we coach you and your team with step-by-step masterclasses, templates, and weekly live reviews.
               </div>
             </div>
           </div>
@@ -1018,7 +1005,7 @@ require_once __DIR__ . '/includes/header.php';
           </div>
           <div class="d-flex align-items-center gap-3">
             <i class="bi bi-check-circle-fill text-success fs-5 flex-shrink-0"></i>
-            <span class="small fw-semibold text-dark">Strictly confidential under NDA with dedicated USA specialists</span>
+            <span class="small fw-semibold text-dark">Strictly confidential under NDA with dedicated specialists</span>
           </div>
         </div>
 
@@ -1026,7 +1013,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="fs-3 text-primary"><i class="bi bi-telephone-fill"></i></div>
           <div>
             <div class="small text-muted">Prefer to talk directly?</div>
-            <a href="tel:8005553600" class="fw-bold text-dark text-decoration-none fs-6">(800) 555-3600</a>
+            <a href="tel:7737579417" class="fw-bold text-dark text-decoration-none fs-6">(773) 757-9417</a>
           </div>
         </div>
       </div>

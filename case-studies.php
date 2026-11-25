@@ -342,7 +342,7 @@ require_once __DIR__ . '/includes/header.php';
             </td>
             <td>
               <span class="benchmark-badge-after mb-1">&lt; 2 Hours Maintenance</span>
-              <div class="text-dark fw-semibold small">Certified GoHighLevel automation handles 2-way SMS reminders, scheduling, and Stripe billing.</div>
+              <div class="text-dark fw-semibold small">360 Growth Lab Automation handles 2-way SMS reminders, scheduling, and Stripe billing.</div>
             </td>
           </tr>
           <tr>
@@ -368,7 +368,7 @@ require_once __DIR__ . '/includes/header.php';
             </td>
             <td>
               <span class="benchmark-badge-after mb-1">Unified CRM &amp; 100% IP</span>
-              <div class="text-dark fw-semibold small">Single-source-of-truth GoHighLevel architecture; 100% owned by your practice with zero lock-in.</div>
+              <div class="text-dark fw-semibold small">Single-source-of-truth 360 Growth Lab architecture; 100% owned by your practice with zero lock-in.</div>
             </td>
           </tr>
           <tr>
@@ -411,7 +411,7 @@ require_once __DIR__ . '/includes/header.php';
                 <i class="bi bi-database-check"></i>
               </div>
               <h6 class="fw-bold text-dark mb-1 font-manrope">Audited CRM Data</h6>
-              <p class="small text-muted mb-0">Revenues, calls, and CPA numbers verified directly through GoHighLevel and Stripe merchant feeds.</p>
+              <p class="small text-muted mb-0">Revenues, calls, and CPA numbers verified directly through 360 Growth Lab and Stripe merchant feeds.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -429,7 +429,7 @@ require_once __DIR__ . '/includes/header.php';
                 <i class="bi bi-award-fill"></i>
               </div>
               <h6 class="fw-bold text-dark mb-1 font-manrope">Guaranteed Delivery</h6>
-              <p class="small text-muted mb-0">Milestone-based implementations backed by dedicated USA growth engineers and weekly SLA accountability.</p>
+              <p class="small text-muted mb-0">Milestone-based implementations backed by dedicated growth engineers and weekly SLA accountability.</p>
             </div>
           </div>
         </div>

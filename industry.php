@@ -75,26 +75,22 @@ require_once __DIR__ . '/includes/header.php';
         </h1>
 
         <p class="lead text-secondary mb-4 fs-5" style="line-height: 1.75;">
-          <?= htmlspecialchars($niche['tagline']) ?> We engineer predictable client generation engines, high-converting websites, and automated GoHighLevel systems built exclusively around the buyer psychology of <?= strtolower(htmlspecialchars($niche['name'])) ?>.
+          <?= htmlspecialchars($niche['tagline']) ?> We engineer predictable client generation engines, high-converting websites, and automated 360 Growth Lab systems built exclusively around the buyer psychology of <?= strtolower(htmlspecialchars($niche['name'])) ?>.
         </p>
 
         <!-- Stats Bar -->
         <div class="row g-2 g-sm-3 mb-4 py-3 bg-white rounded-4 border shadow-xs px-2 text-center">
-          <div class="col-6 col-sm-3 py-1 border-end border-light-subtle">
+          <div class="col-6 col-sm-4 py-1 border-end border-light-subtle">
             <div class="fs-4 fw-extrabold text-primary font-manrope">4.8x</div>
             <div class="small text-muted fw-semibold" style="font-size: 0.72rem;">Avg Return on Spend</div>
           </div>
-          <div class="col-6 col-sm-3 py-1 border-end border-light-subtle">
+          <div class="col-6 col-sm-4 py-1 border-end border-light-subtle">
             <div class="fs-4 fw-extrabold text-primary font-manrope">14-25</div>
             <div class="small text-muted fw-semibold" style="font-size: 0.72rem;">Discovery Calls/mo</div>
           </div>
-          <div class="col-6 col-sm-3 py-1 border-end border-light-subtle">
+          <div class="col-6 col-sm-4 py-1">
             <div class="fs-4 fw-extrabold text-primary font-manrope">Sub-60s</div>
             <div class="small text-muted fw-semibold" style="font-size: 0.72rem;">Speed-to-Lead</div>
-          </div>
-          <div class="col-6 col-sm-3 py-1">
-            <div class="fs-4 fw-extrabold text-primary font-manrope">100%</div>
-            <div class="small text-muted fw-semibold" style="font-size: 0.72rem;">Dedicated USA Team</div>
           </div>
         </div>
 
@@ -261,7 +257,7 @@ require_once __DIR__ . '/includes/header.php';
       <div class="col-md-6 col-lg-3">
         <div class="process-step-card">
           <div class="process-step-num">04</div>
-          <h5 class="fw-bold text-dark mb-2 font-manrope">GoHighLevel & AI Automation</h5>
+          <h5 class="fw-bold text-dark mb-2 font-manrope">360 Growth Lab and AI Automation</h5>
           <p class="text-secondary small mb-0" style="line-height: 1.65;">
             Instant speed-to-lead follow-up, automated SMS reminders, and review generation on 24/7 autopilot.
           </p>
@@ -412,11 +408,11 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="p-3 bg-white rounded-3 border shadow-xs">
           <small class="text-muted d-block mb-1">Prefer direct inquiry?</small>
-          <a href="mailto:growth@coaching360usa.com" class="fw-bold text-primary text-decoration-none me-3">
-            <i class="bi bi-envelope me-1"></i> growth@coaching360usa.com
+          <a href="mailto:growth@coahinggrowth360.com" class="fw-bold text-primary text-decoration-none me-3">
+            <i class="bi bi-envelope me-1"></i> growth@coahinggrowth360.com
           </a>
-          <a href="tel:+18005553600" class="fw-bold text-secondary text-decoration-none">
-            <i class="bi bi-telephone me-1"></i> +1 (800) 555-3600
+          <a href="tel:+17737579417" class="fw-bold text-secondary text-decoration-none">
+            <i class="bi bi-telephone me-1"></i> (773) 757-9417
           </a>
         </div>
       </div>
